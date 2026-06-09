@@ -1,0 +1,26 @@
+node_modules/
+build/
+dist/
+dist-server/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Build outputs (large Electron binaries)
+release/
+release-builds/
+release-installers/
+
+# Other folders
+coupon-tester/
+
+# Temporary and downloaded files
+*.mp4
+*.webm
+*.mkv
+*.part
+*.ytdl
+*-player-script.js
+cookies.txt
