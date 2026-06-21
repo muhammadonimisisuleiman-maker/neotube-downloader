@@ -1,20 +1,91 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🎬 NeoTube Downloader
 
-# Run and deploy your AI Studio app
+A premium desktop video downloader built with **Electron**, **React**, and **yt-dlp**.
+Supports **YouTube**, **Facebook**, **TikTok**, **Twitter/X**, and more.
 
-This contains everything you need to run your app locally.
+![NeoTube Downloader](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey?style=for-the-badge&logo=windows)
+![License](https://img.shields.io/badge/license-Open%20Source-green?style=for-the-badge)
 
-View your app in AI Studio: https://ai.studio/apps/15ca6875-ad1a-428c-8c3d-8d18a0146729
+---
 
-## Run Locally
+## ✨ Features
 
-**Prerequisites:**  Node.js
+- 🎥 **Video downloads** — 4K, 2K, 1080p, 720p, 480p, 360p
+- 🎵 **Audio extraction** — MP3, WAV, FLAC, OGG, M4A
+- 📋 **Batch downloads** — paste multiple links at once
+- 📁 **Playlist support** — pick and choose videos from YouTube playlists
+- 🍪 **Cookie support** — bypass age restrictions and bot checks
+- 🌓 **Dark / Light mode** — premium Liquid Glass UI
+- 📎 **Clipboard auto-detection** — automatically detects copied video links
+- 🔒 **100% local & private** — no data ever leaves your device
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📥 Download & Install
+
+👉 **[Download the latest installer from Releases](https://github.com/muhammadonimisisuleiman-maker/neotube-downloader/releases/latest)**
+
+Simply download `NeoTube-Downloader-Setup.exe` and run it. That's it!
+
+---
+
+## 🛠️ Build from Source
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) v18+
+- [Git](https://git-scm.com/)
+
+### Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/muhammadonimisisuleiman-maker/neotube-downloader.git
+cd neotube-downloader
+
+# Install dependencies
+npm install
+
+# Run in development mode
+npm run dev
+```
+
+### Build the Electron desktop app
+
+```bash
+npm run build-exe
+```
+
+This will generate the installer in the `release-installers/` folder.
+
+---
+
+## 🔒 Privacy & Security
+
+- ✅ All cookies and session data are stored **locally on your device only**
+- ✅ Cookies are written to a **temporary file**, used for the download, then **immediately deleted**
+- ✅ No data is ever sent to any remote server
+- ✅ No account details or tokens are stored anywhere other than your own machine
+
+---
+
+## 🧰 Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Desktop Shell | Electron |
+| Frontend | React + TypeScript + Vite |
+| Backend | Express.js + TypeScript |
+| Downloader Engine | yt-dlp (via youtube-dl-exec) |
+| UI Styling | Tailwind CSS + Framer Motion |
+
+---
+
+## 📬 Contact & Feedback
+
+Have a bug to report or a feature request?
+Email: **muhammadonimisisuleiman@gmail.com**
+
+---
+
+*Made with ❤️ by muhammadonimisisuleiman-maker*

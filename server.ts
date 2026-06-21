@@ -76,7 +76,7 @@ async function startServer() {
         noWarnings: true,
         noCheckCertificates: true,
         forceIpv4: true,
-        socketTimeout: 30,
+        socketTimeout: 120,
       };
 
       if (cookies && cookies.trim().length > 0) {
@@ -129,7 +129,7 @@ async function startServer() {
         noWarnings: true,
         noCheckCertificates: true,
         forceIpv4: true,
-        socketTimeout: 30,
+        socketTimeout: 120,
         ...baseCookieOptions,
       };
       const info = await safeYtDlp(url, infoOptions, { cwd: os.tmpdir() }) as any;
@@ -170,7 +170,7 @@ async function startServer() {
         noWarnings: true,
         noCheckCertificates: true,
         forceIpv4: true,
-        socketTimeout: 30,
+        socketTimeout: 120,
         mergeOutputFormat: mode === 'audio' ? undefined : 'mp4',
         ...baseCookieOptions,
       };
@@ -258,7 +258,7 @@ async function startServer() {
         noWarnings: true,
         noCheckCertificates: true,
         forceIpv4: true,
-        socketTimeout: 30,
+        socketTimeout: 120,
       };
 
       if (cookies && cookies.trim().length > 0) {
